@@ -59,7 +59,7 @@ const projectData = [
     link: 'https://github.com/shifantasticc/Front-End-Projects',
   },
   {
-    title: 'StreamCall– Vedio Conferrencing Application.',
+    title: 'StreamCall– Video Conferrencing Application.',
     description:
       'StreamCall is a video calling web app built using React and follows the MVC architecture. It offers real-time video and audio communication with a clean, responsive interface. The app ensures organized virtual meetings.',
     image: 'Portfolio.png',
