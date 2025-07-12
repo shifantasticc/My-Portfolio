@@ -13,7 +13,7 @@
 }
 
 .projects h3 {
-    color: #dae4ff;
+  color: #dae4ff;
   text-align: center;
   font-weight: 500;
 }
@@ -50,8 +50,9 @@
 
 .project-image {
   width: 100%;
-  height: auto;
+  height: 10rem;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .project-btn {
@@ -70,4 +71,27 @@
   color: #10125f;
   font-weight: bold;
   transition: font-weight 0.2s;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 2rem 1.5rem;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+  }
+
+  .project-card p {
+    font-size: 0.85rem;
+  }
+
+  .project-image {
+    height: 10rem;
+  }
+
+  .project-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
 }

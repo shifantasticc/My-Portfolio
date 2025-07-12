@@ -7,15 +7,9 @@
   text-align: left;
   padding: 2rem;
   margin: 3rem;
-  gap: 2rem;
+  gap: 5rem;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 5rem;
-}
-
-.Home-Intro span {
-  font-size: 1.5rem;
-  color: #879dce;
 }
 
 .Home-Intro {
@@ -25,6 +19,15 @@
 .Home-Intro h1 {
   font-size: 2.7rem;
   margin: 0.5rem 0;
+}
+
+.Home-Intro h2 {
+  font-size: 2rem;
+}
+
+.Home-Intro span {
+  font-size: 1.5rem;
+  color: #879dce;
 }
 
 .Home-Intro p {
@@ -45,4 +48,43 @@
 .hero-image {
   width: 100%;
   max-width: 600px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ✅ Responsive styles */
+@media (max-width: 950px) {
+  .hero {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    gap: 2rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .Home-Intro {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .Home-Intro h1 {
+    font-size: 2rem;
+  }
+
+  .Home-Intro h2 {
+    font-size: 1.4rem;
+  }
+
+  .Home-Intro span {
+    font-size: 1.3rem;
+  }
+
+  .Home-Img {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .hero-image {
+    max-width: 90%;
+  }
 }

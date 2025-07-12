@@ -8,7 +8,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-  height: 3rem;
+  height: 4rem;
+  flex-wrap: wrap;
 }
 
 .logo span {
@@ -21,6 +22,7 @@
   color: white;
   border-radius: 3rem;
   padding: 0.3rem 1.3rem;
+  margin-top: -0.1rem;
 }
 
 .logo:hover {
@@ -41,10 +43,13 @@
   list-style: none;
   font-size: 1.5rem;
   gap: 3rem;
+  align-items: center;
+  margin-top: -0.1rem;
 }
 
 .navbar ul a {
   color: #879dce;
+  text-decoration: none;
 }
 
 .navbar ul a:hover {
@@ -69,32 +74,49 @@
   font-size: 1.5rem;
 }
 
-@media (max-width: 1155px) {
-  .logo span {
-    font-size: 0rem;
+@media (max-width: 950px) {
+  .navbar {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    height: auto;
   }
 
   .logo {
     font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin-top: -0.2rem;
   }
-}
 
-@media (max-width: 1020px) {
-  .logo {
+  .logo span {
+    display: none;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 0.9rem;
+    margin: -1rem -2.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .navbar ul a {
+    font-size: 1.2rem;
+    color: #879dce;
+  }
+
+  .navbar ul a:hover {
     font-size: 1.3rem;
   }
-}
 
-@media (max-width: 950px) {
-  .logo {
+  .navbar .btn {
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+  }
+
+  .navbar .btn:hover {
     font-size: 1.2rem;
-    padding-top: 1.5rem;
-  }
-  .navbar ul a {
-    /* font-size: 0rem; */
-    color: #121212;
-  }
-  .options .resume li {
-    font-size: 1.5rem;
   }
 }

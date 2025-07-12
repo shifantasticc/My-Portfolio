@@ -10,11 +10,11 @@ const projectData = [
     link: 'https://serenostay-project.onrender.com/listings',
   },
   {
-    title: 'Spotify Clone– Front-end Project',
+    title: 'Portfolio– React Project',
     description:
-      'Spotify Clone is a front-end project. It recreates the look and feel of Spotify’s user interface with a responsive layout and interactive design elements like a music player and sidebar navigation—offering a visually appealing user experience.',
-    image: 'Spotify.png',
-    link: 'https://github.com/shifantasticc/Front-End-Projects',
+      'Portfolio Website is a personal project built using React. It features a dynamic and responsive layout to showcase projects and about information. The site includes reusable components, smooth navigation, and a clean UI for an engaging user experience.',
+    image: 'Portfolio.png',
+    link: 'https://github.com/shifantasticc/PORTFOLIO',
   },
   {
     title: 'Weather App– React Project',
@@ -32,13 +32,15 @@ const projectData = [
   },
   {
     title: 'Rock Paper Scissors Game',
-    description: 'Rock Paper Scissors is a front-end game built with HTML, CSS, and JavaScript. It allows users to play against the computer with dynamic score tracking, interactive UI, and real-time game logic for a fun and responsive experience.',
+    description:
+      'Rock Paper Scissors is a front-end game built with HTML, CSS, and JavaScript. It allows users to play against the computer with dynamic score tracking, interactive UI, and real-time game logic for a fun and responsive experience.',
     image: '/rockpaper.png',
     link: 'https://github.com/shifantasticc/Front-End-Projects',
   },
   {
     title: 'Tic–Tac–Toe Game',
-    description: 'Tic-Tac-Toe is a simple front-end game built using HTML, CSS, and JavaScript. It features a responsive grid layout, turn-based logic, and win detection, allowing two players to play interactively with a smooth user experience',
+    description:
+      'Tic-Tac-Toe is a simple front-end game built using HTML, CSS, and JavaScript. It features a responsive grid layout, turn-based logic, and win detection, allowing two players to play interactively with a smooth user experience',
     image: '/XO.png',
     link: 'https://github.com/shifantasticc/Front-End-Projects',
   },
@@ -50,11 +52,11 @@ const projectData = [
     link: 'https://github.com/shifantasticc/Front-End-Projects',
   },
   {
-    title: 'Portfolio Website',
+    title: 'Spotify Clone– Front-end Project',
     description:
-      'Portfolio Website is a personal project built using React. It features a dynamic and responsive layout to showcase projects and about information. The site includes reusable components, smooth navigation, and a clean UI for an engaging user experience.',
-    image: 'Portfolio.png',
-    link: 'https://github.com/shifantasticc/PORTFOLIO',
+      'Spotify Clone is a front-end project. It recreates the look and feel of Spotify’s user interface with a responsive layout and interactive design elements like a music player and sidebar navigation—offering a visually appealing user experience.',
+    image: 'Spotify.png',
+    link: 'https://github.com/shifantasticc/Front-End-Projects',
   },
   {
     title: 'StreamCall– Vedio Conferrencing Application.',
