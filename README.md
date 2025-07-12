@@ -1,12 +1,51 @@
-# React + Vite
+# 💼 My Portfolio - Shifa Shaikh
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the codebase for **my personal portfolio website**, developed using **React.js**! This is a digital space where I highlight my journey, skills, and the projects I've built.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 [Visit the Live Site](https://portfolio-shifa.netlify.app/)
 
-## Expanding the ESLint configuration
+## 🎨 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Sleek and responsive layout
+- 🧩 Modular React components
+- 🌙 Dark mode theme *(dynamic styling)*
+- 📂 Projects section with live/demo links
+- 🛠️ Skills showcased with icons
+- 📄 Resume download button
+- 📞 Contact & Social Links
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **HTML5 + CSS3**
+- **JavaScript (ES6+)**
+- **Netlify** for deployment
+
+## 🌈 Dynamic Styles
+
+This portfolio uses **CSS animations**, **hover effects**, and **scroll transitions** to add flair. To toggle between themes or adjust styles, modify the respective CSS modules.
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/shifantasticc/My-Portfolio.git
+cd My-Portfolio
+npm install
+npm start
+```
+
+Visit: `http://localhost:3000`
+
+
+## 🤝 Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/shifantastic/)
+- 💻 [GitHub](https://github.com/shifantasticc)
+- 📫 Email: shifashaikh6219@gmail.com
+
+---
+
+> Made by **Shifa Shaikh** — [Portfolio](https://portfolio-shifa.netlify.app/)
+
