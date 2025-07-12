@@ -1,0 +1,48 @@
+.hero {
+  height: calc(100vh - 15rem);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 2rem;
+  margin: 3rem;
+  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.Home-Intro span {
+  font-size: 1.5rem;
+  color: #879dce;
+}
+
+.Home-Intro {
+  max-width: 50%;
+}
+
+.Home-Intro h1 {
+  font-size: 2.7rem;
+  margin: 0.5rem 0;
+}
+
+.Home-Intro p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.Home-Img {
+  flex: 1;
+  max-width: 45%;
+  height: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px;
+}

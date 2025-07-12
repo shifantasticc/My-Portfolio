@@ -1,0 +1,100 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #121212;
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  height: 3rem;
+}
+
+.logo span {
+  font-size: 0.75rem;
+  color: #879dce;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 3rem;
+  padding: 0.3rem 1.3rem;
+}
+
+.logo:hover {
+  font-size: 1.6rem;
+  transition: font-size 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: linear-gradient(to bottom, #879dce, #121212);
+}
+
+.navbar.scrolled ul a {
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 3rem;
+}
+
+.navbar ul a {
+  color: #879dce;
+}
+
+.navbar ul a:hover {
+  font-size: 1.55rem;
+  transition: font-size 0.2s ease;
+  color: #dae4ff;
+}
+
+.navbar .btn {
+  background-color: #879dce;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .btn:hover {
+  color: #10125f;
+  transition: color 0.2s ease;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1155px) {
+  .logo span {
+    font-size: 0rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .logo {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+  }
+  .navbar ul a {
+    /* font-size: 0rem; */
+    color: #121212;
+  }
+  .options .resume li {
+    font-size: 1.5rem;
+  }
+}
