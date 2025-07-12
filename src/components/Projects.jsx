@@ -14,7 +14,7 @@ const projectData = [
     description:
       'Portfolio Website is a personal project built using React. It features a dynamic and responsive layout to showcase projects and about information. The site includes reusable components, smooth navigation, and a clean UI for an engaging user experience.',
     image: 'Portfolio.png',
-    link: 'https://github.com/shifantasticc/PORTFOLIO',
+    link: 'https://portfolio-shifa.netlify.app/',
   },
   {
     title: 'Weather App– React Project',
