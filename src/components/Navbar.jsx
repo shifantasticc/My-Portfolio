@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
           <span>— MY PORTFOLIO</span>
         </i>{' '}
       </h1>
-      <ul className='options'>
+      <ul className="options">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -33,10 +33,10 @@ const Navbar = () => {
         </li>
         <div className="resume">
           <li>
-          <a href="resume-ShifaShaikh.pdf" download className="btn">
-            Resume
-          </a>
-        </li>
+            <a href="resume-ShifaShaikh.pdf" download className="btn">
+              Resume
+            </a>
+          </li>
         </div>
       </ul>
     </nav>

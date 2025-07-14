@@ -1,4 +1,3 @@
-import React from 'react';
 import './Projects.css';
 
 const projectData = [
@@ -10,18 +9,18 @@ const projectData = [
     link: 'https://serenostay-project.onrender.com/listings',
   },
   {
+    title: 'Weather App– React Project',
+    description:
+      'Weather App is a responsive React & and Material UI application that fetches real-time weather data based on user input. It displays temperature, weather conditions, and location details using clean UI and API integration.',
+    image: 'WeatherApp.png',
+    link: 'https://github.com/shifantasticc/Practice-React',
+  },
+  {
     title: 'Portfolio– React Project',
     description:
       'Portfolio Website is a personal project built using React. It features a dynamic and responsive layout to showcase projects and about information. The site includes reusable components, smooth navigation, and a clean UI for an engaging user experience.',
     image: 'Portfolio.png',
     link: 'https://portfolio-shifa.netlify.app/',
-  },
-  {
-    title: 'Weather App– React Project',
-    description:
-      'Weather App is a responsive React & and Material UI application that fetches real-time weather data based on user input. It displays temperature, weather conditions, and location details using clean UI and API integration.',
-    image: 'Weather.png',
-    link: 'https://github.com/shifantasticc/Practice-React',
   },
   {
     title: 'Simon Says Game',

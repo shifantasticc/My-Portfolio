@@ -7,6 +7,7 @@
   text-align: left;
   padding: 2rem;
   margin: 3rem;
+  margin-top: -2rem;
   gap: 5rem;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,6 +36,19 @@
   margin-bottom: 1rem;
 }
 
+.hero .btn {
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  background-color: #8091b7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #65769a;
+}
+
 .Home-Img {
   flex: 1;
   max-width: 45%;
@@ -52,7 +66,6 @@
   object-fit: contain;
 }
 
-/* ✅ Responsive styles */
 @media (max-width: 950px) {
   .hero {
     flex-direction: column;

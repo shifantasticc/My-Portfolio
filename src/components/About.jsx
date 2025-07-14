@@ -1,4 +1,3 @@
-import React from 'react';
 import './About.css';
 
 const About = () => {
@@ -33,7 +32,6 @@ const About = () => {
             <i>
               <span>Responsive Web Applications. </span>
             </i>
-            {/* and also in areas related to Cyber security. */}
           </p>
 
           <p>

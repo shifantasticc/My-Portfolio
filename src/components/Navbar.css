@@ -10,6 +10,7 @@
   padding: 1rem 10rem;
   height: 4rem;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom, #879dce, #121212);
 }
 
 .logo span {
@@ -30,14 +31,6 @@
   transition: font-size 0.3s ease;
 }
 
-.navbar.scrolled {
-  background: linear-gradient(to bottom, #879dce, #121212);
-}
-
-.navbar.scrolled ul a {
-  color: white;
-}
-
 .navbar ul {
   display: flex;
   list-style: none;
@@ -48,7 +41,7 @@
 }
 
 .navbar ul a {
-  color: #879dce;
+  color: white;
   text-decoration: none;
 }
 
