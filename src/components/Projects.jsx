@@ -70,13 +70,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h2>
-        <span>
-          <b>·</b>
-        </span>{' '}
-        PROJECTS{' '}
-        <span>
-          <b>·</b>
-        </span>
+       PROJECTS &nbsp;<i class="fa-solid fa-laptop-code"></i>
       </h2>
       <div className="projects-grid">
         {projectData.map((project, index) => (

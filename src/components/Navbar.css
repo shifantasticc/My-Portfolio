@@ -7,15 +7,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10rem;
+  padding: 1rem 5rem;
   height: 4rem;
   flex-wrap: wrap;
-  background: linear-gradient(to bottom, #879dce, #121212);
+  background: linear-gradient(to bottom, #879dce, #0f172a);
 }
 
 .logo span {
   font-size: 0.75rem;
-  color: #879dce;
+  color: #dfe1e3;
 }
 
 .logo {
@@ -35,7 +35,7 @@
   display: flex;
   list-style: none;
   font-size: 1.5rem;
-  gap: 3rem;
+  gap: 1.5rem;
   align-items: center;
   margin-top: -0.1rem;
 }
@@ -63,7 +63,6 @@
 
 .navbar .btn:hover {
   color: #10125f;
-  transition: color 0.2s ease;
   font-size: 1.5rem;
 }
 
@@ -81,10 +80,6 @@
     margin-top: -0.2rem;
   }
 
-  .logo span {
-    display: none;
-  }
-
   .navbar ul {
     display: flex;
     gap: 0.9rem;
@@ -97,7 +92,6 @@
 
   .navbar ul a {
     font-size: 1.2rem;
-    color: #879dce;
   }
 
   .navbar ul a:hover {

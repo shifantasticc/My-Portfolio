@@ -31,6 +31,13 @@ const Navbar = () => {
         <li>
           <a href="#projects">Projects</a>
         </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#footer">Contact Me!</a>
+        </li>
+
         <div className="resume">
           <li>
             <a href="resume-ShifaShaikh.pdf" download className="btn">
