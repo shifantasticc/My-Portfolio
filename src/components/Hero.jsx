@@ -2,6 +2,7 @@ import './Hero.css';
 import Intro from './Intro';
 import Footer from './Footer';
 import Image1 from '/WebDev.png';
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -18,9 +19,9 @@ const Hero = () => {
           <a href="resume-ShifaShaikh.pdf" download className="btn">
             View Resume
           </a>
-          <a href="/contact" className="btn">
-            Contact Me
-          </a>
+          <a className="btn">
+            <NavLink to="/contact">Contact</NavLink>
+          </a>   
         </div>
         <div className="Home-Img">
           <img src={Image1} alt="Web Developer" className="hero-image" />

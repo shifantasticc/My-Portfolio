@@ -41,7 +41,7 @@
   margin-bottom: 1.5rem;
 }
 
-.Intro .btn {
+.Intro .btn a {
   margin-right: 1.5rem;
   padding: 0.5rem 1rem;
   border: 1px solid #334155;
@@ -52,7 +52,7 @@
   font-weight: 700;
 }
 
-.Intro .btn:hover {
+.Intro .btn a:hover {
   transform: translateY(-6px);
   box-shadow: 0 5px 20px #38bdf833;
   background-color: #91a0c3;

@@ -1,4 +1,5 @@
 import './Intro.css';
+import { NavLink } from 'react-router-dom';
 
 const Intro = () => {
   return (
@@ -48,11 +49,11 @@ const Intro = () => {
               </i>
             </p> */}
             <br />
-            <a href="/About" className="btn">
-              More About Me
+            <a className="btn">
+              <NavLink to="/about">More About Me</NavLink>
             </a>
-            <a href="/Projects" className="btn">
-              All Projects
+            <a className="btn">
+              <NavLink to="/projects">All Projects</NavLink>
             </a>
           </div>
         </div>
