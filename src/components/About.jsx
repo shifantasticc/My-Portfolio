@@ -14,10 +14,10 @@ const About = () => {
             </p>
             <p>
               Hi Everyone, I am <span>Shifa Shaikh</span> from{' '}
-              <span>Mumbai, India.</span> I am currently 3rd year BSc student of
-              Information Technology at SNDT, Mumbai. I'm{' '}
-              <span>Web developer</span> and{' '}
-              <span>DSA in Java enthusiast.</span>
+              <span>Mumbai, India.</span> Currently in my 3rd year pursuing
+              B.Sc. in Information Technology at SNDT University, Mumbai. I'm passionate about{' '}
+              <span>web development</span> and have a growing interest in{' '}
+              <span> Data Structures and Algorithms using Java.</span>
             </p>
             <p>
               I am looking forward to gain competency and exposure in{' '}
@@ -31,8 +31,9 @@ const About = () => {
               Apart from coding, some other activities that I love to do!
               <ul>
                 <li>Reading</li>
-                <li>Case Study</li>
-                <li>Learning Language & Culture</li>
+                <li>Analyzing Case Study</li>
+                <li>Exploring Languages & Cultures</li>
+                <li>Solving Logic Puzzles & Brain Teasers</li>
               </ul>
             </p>
           </div>

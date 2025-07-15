@@ -12,28 +12,29 @@ const Intro = () => {
             </p>
             <p>
               {' '}
-              Hello, I'm Shifa Shaikh! A Passionate{' '}
+              Hello, I’m Shifa Shaikh— a passionate{' '}
               <i>
                 <span>Full-staclk Web Developer</span>
               </i>
             </p>
 
             <p>
-              I am Proficient in classics like{' '}
+              I'm proficient in core technologies like the{' '}
               <i>
-                <span>MERN stack, Javascript, SQL, Java, Python </span>
+                <span>MERN stack, Javascript, SQL, Java, Python, </span>
               </i>
-              and version control tools like{' '}
+              along with version control tools such as{' '}
               <i>
                 <span>Git/GitHub .</span>{' '}
               </i>
             </p>
 
             <p>
-              My areas of interest includes building new{' '}
+              I'm especially passionate about building{' '}
               <i>
-                <span>Responsive Web Applications. </span>
-              </i>
+                <span>responsive and user-friendly web applications</span>
+              </i>{' '}
+              that offer real-world value and seamless user experiences.
             </p>
 
             {/* <p>
