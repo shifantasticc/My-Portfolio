@@ -39,14 +39,20 @@
 .hero .btn {
   margin-top: 1rem;
   margin-right: 1.5rem;
-  background-color: #8091b7;
+  border: 1px solid #334155;
+  background-color: #879dce;
   color: #ffffff;
   border: none;
   border-radius: 5px;
+  font-weight: 700;
 }
 
 .hero .btn:hover {
-  background-color: #65769a;
+  transform: translateY(-6px);
+  box-shadow: 0 5px 20px #38bdf833;
+  background-color: #91a0c3;
+  color: #0f172a;
+  font-weight: 700;
 }
 
 .Home-Img {

@@ -1,5 +1,7 @@
 import './Hero.css';
-import Image from '/WebDev.png';
+import Intro from './Intro';
+import Footer from './Footer';
+import Image1 from '/WebDev.png';
 
 const Hero = () => {
   return (
@@ -16,14 +18,16 @@ const Hero = () => {
           <a href="resume-ShifaShaikh.pdf" download className="btn">
             View Resume
           </a>
-          {/* <a href="/" className="btn">
+          <a href="/contact" className="btn">
             Contact Me
-          </a> */}
+          </a>
         </div>
         <div className="Home-Img">
-          <img src={Image} alt="Web Developer" className="hero-image" />
+          <img src={Image1} alt="Web Developer" className="hero-image" />
         </div>
       </div>
+      <Intro />
+      <Footer />
     </>
   );
 };

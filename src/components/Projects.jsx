@@ -1,5 +1,5 @@
 import './Projects.css';
-
+import Footer from './Footer';
 const projectData = [
   {
     title: 'SerenoStay– Hotel Booking Web Application.',
@@ -68,32 +68,35 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
-      <h2>
-       PROJECTS &nbsp;<i class="fa-solid fa-laptop-code"></i>
-      </h2>
-      <div className="projects-grid">
-        {projectData.map((project, index) => (
-          <div className="project-card" key={index}>
-            <img
-              src={project.image}
-              alt={project.title}
-              className="project-image"
-            />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-btn"
-            >
-              View Project
-            </a>
-          </div>
-        ))}
-      </div>
-    </section>
+    <>
+      <section id="projects" className="projects">
+        <h2>
+          PROJECTS &nbsp;<i class="fa-solid fa-laptop-code"></i>
+        </h2>
+        <div className="projects-grid">
+          {projectData.map((project, index) => (
+            <div className="project-card" key={index}>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-image"
+              />
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+              >
+                View Project
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+      <Footer />
+    </>
   );
 };
 

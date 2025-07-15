@@ -1,13 +1,20 @@
 #skills {
   background-color: #0f172a;
   color: #ffffff;
-  padding: 3rem 0rem;
   text-align: center;
-  margin: 8rem 1rem;
+  margin-bottom: 10rem;
+  margin-top: -6rem;
 }
 
 #skills h2 {
   font-size: 2.4rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #91a0c3;
+}
+
+#skills h3 {
+  font-size: 1.7rem;
   margin-bottom: 30px;
   font-weight: bold;
   color: #ffffff;
@@ -23,7 +30,7 @@
 }
 
 .skill-card {
-  background-color: #1e293b;
+  background-color: #28364d;
   border: 1px solid #334155;
   border-radius: 0.7rem;
   width: 8rem;
@@ -32,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #e2e8f0;
+  color: #ffffff;
   font-weight: 500;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(100, 100, 100, 0.1);
@@ -40,9 +47,10 @@
 
 .skill-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 20px #38bdf833;
-  background-color: #879dce;
+  box-shadow: 0 5px 20px #6b38f833;
+  background-color: #91a0c3;
   color: #0f172a;
+  font-weight: 600;
 }
 
 .skill-icon {

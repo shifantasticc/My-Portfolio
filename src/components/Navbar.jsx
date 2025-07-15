@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './Navbar.css';
 
@@ -9,35 +10,31 @@ const Navbar = () => {
       setScrolled(window.scrollY > 0);
     };
     window.addEventListener('scroll', handleScroll);
-
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <h1 className="logo">
-        Shifa Shaikh{' '}
+        <NavLink to="/" style={{color: "white"}}>Shifa Shaikh</NavLink>{' '}
         <i>
           <span>— MY PORTFOLIO</span>
-        </i>{' '}
+        </i>
       </h1>
       <ul className="options">
         <li>
-          <a href="#home">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#footer">Contact Me!</a>
+          <NavLink to="/about">About</NavLink>
         </li>
 
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
         <div className="resume">
           <li>
             <a href="resume-ShifaShaikh.pdf" download className="btn">

@@ -1,36 +1,70 @@
+/* src/components/Footer.css */
+
 .footer {
-  /* min-height: calc(100vh - 200px); */
   background-color: #152038;
   color: #eee;
   padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  align-items: center;
 }
 
-.footer-content h2 {
+.footer-links {
   margin-bottom: 1rem;
-  font-size: 2.3rem;
-  color: #879dce;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.footer-content p {
-  margin: 1rem 0;
-  font-size: 1rem;
-}
-
-.footer-content a {
+.footer-links a {
   color: #879dce;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.footer-content a:hover {
-  text-decoration: underline;
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-links i {
+  margin-right: 6px;
+}
+
+.footer-content h4 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #cfcfcf;
+}
+
+.footer-email {
+  margin-top: 0.5rem;
+}
+
+.footer-email a {
+  color: #879dce;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+  color: #fff;
+}
+
+.footer-email i {
+  margin-right: 6px;
 }
 
 .footer-bottom {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #aaa;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #a0a0a0;
 }
+

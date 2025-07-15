@@ -4,31 +4,33 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h2>Contact Me Here</h2>
-        <p>
-          Email: <a href="shifashaikh6219@gmail.com">shifashaikh6219@gmail.com</a>
-        </p>
-        <p>
-          LinkedIn:{' '}
+        <div className="footer-links">
           <a
             href="https://www.linkedin.com/in/shifantastic/"
             target="_blank"
             rel="noreferrer"
           >
-            linkedin.com/in/shifantastic/
+            <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-        </p>
-        <p>
-          GitHub:{' '}
+          <span>|</span>
           <a
             href="https://github.com/shifantasticc"
             target="_blank"
             rel="noreferrer"
           >
-            github.com/shifantasticc
+            <i className="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <h4>Designed & Developed by Shifa Shaikh</h4>
+
+        <p className="footer-email">
+          <a href="mailto:shifashaikh6219@gmail.com">
+            <i className="fas fa-envelope"></i> shifashaikh6219@gmail.com
           </a>
         </p>
       </div>
+
       <div className="footer-bottom">
         <p>© 2025 Shifa Shaikh. All rights reserved.</p>
       </div>

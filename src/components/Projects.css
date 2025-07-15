@@ -1,6 +1,7 @@
 .projects {
   min-height: calc(100vh - 80px);
   padding: 4rem 10rem;
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
