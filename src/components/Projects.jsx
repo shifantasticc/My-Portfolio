@@ -2,6 +2,13 @@ import './Projects.css';
 import Footer from './Footer';
 const projectData = [
   {
+    title: 'SerenoStream Call– Video Conferrencing Application.',
+    description:
+      'StreamCall is a video calling web app built using React & WebRTC. It offers real-time video and audio communication with a clean, responsive interface. The app ensures organized virtual meetings.',
+    image: 'StreamCall.png',
+    link: 'https://streamcall-frontend.onrender.com/',
+  },
+  {
     title: 'SerenoStay– Hotel Booking Web Application.',
     description:
       'SerenoStay is a full-stack hotel booking web app built on MVC architecture. Users can explore hotels, view details, and book rooms easily, while admins manage listings, bookings, and customer interactions seamlessly.',
@@ -56,13 +63,6 @@ const projectData = [
       'Spotify Clone is a front-end project. It recreates the look and feel of Spotify’s user interface with a responsive layout and interactive design elements like a music player and sidebar navigation—offering a visually appealing user experience.',
     image: 'Spotify.png',
     link: 'https://github.com/shifantasticc/Front-End-Projects',
-  },
-  {
-    title: 'StreamCall– Video Conferrencing Application.',
-    description:
-      'StreamCall is a video calling web app built using React and follows the MVC architecture. It offers real-time video and audio communication with a clean, responsive interface. The app ensures organized virtual meetings.',
-    image: 'Portfolio.png',
-    link: 'https://github.com/shifantasticc/StreamCall-Project',
   },
 ];
 
